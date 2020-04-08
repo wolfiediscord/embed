@@ -2,7 +2,7 @@ class Embed {
     constructor(msg) {
         this.msg = msg;
     }
-}
+
 exports.error = (msg) => {
     if(!msg) {msg = 'Unknown. Please contact the bot author.'};
     let embed = {
@@ -18,5 +18,6 @@ exports.success = (msg) => {
      color: '#2fa811'
    }
    return embed;
+}
 }
 module.exports = Embed;
