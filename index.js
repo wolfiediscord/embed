@@ -19,3 +19,4 @@ exports.success = (msg) => {
    }
    return embed;
 }
+module.exports = Embed;
