@@ -24,3 +24,21 @@ const embed = require('embed');
 let error = embed.error('Error!');
 message.channel.send({embed: error});
 ```
+
+# Warning Prompt
+To add a warning prompt to your bot, use `embed.warn('MESSAGE GOES HERE');`
+Example:
+```
+const embed = require('embed');
+let warning = embed.warn('Warning!');
+message.channel.send({embed: warning});
+```
+
+# Info Prompt
+To add a info prompt to your bot, use `embed.info('MESSAGE GOES HERE');`
+Example:
+```
+const embed = require('embed');
+let info = embed.info('Info.');
+message.channel.send({embed: info});
+```
